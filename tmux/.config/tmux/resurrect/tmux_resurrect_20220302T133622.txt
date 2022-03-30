@@ -1,0 +1,22 @@
+pane	··· virt ···	1	1	:*	1	:/home/darth	1	zsh	:
+pane	••• left •••	1	1	:*	1	:/home/darth	1	sudo	:sudo btop
+pane	••• left •••	2	0	:	1	:/home/darth	1	zsh	:mpv https://cnn-cnninternational-1-de.samsung.wurl.com/manifest/playlist.m3u8
+pane	••• left •••	4	0	:-	1	:/home/darth	1	zsh	:
+pane	••• right •••	1	0	:	1	:/home/darth	1	weechat	:weechat -d .config/weechat -d .config/weechat -d .config/weechat -d .config/weechat -d .config/weechat -d .config/weechat -d .config/weechat -d .config/weechat
+pane	••• right •••	2	1	:*	1	:/home/darth	1	newsboat	:newsboat
+pane	••• right •••	3	0	:	1	:/home/darth	1	ncmpcpp	:ncmpcpp
+pane	••• right •••	4	0	:	1	:/home/darth	1	neomutt	:neomutt
+pane	••• right •••	7	0	:	1	:/home/darth	1	zsh	:
+pane	••• right •••	7	0	:	2	:/home/darth	0	zsh	:
+pane	••• right •••	9	0	:-	1	:/home/darth	1	zsh	:
+window	··· virt ···	1	: · Docker · 	1	:*	bcfe,143x44,0,0,1	off
+window	••• left •••	1	: • ~top 	1	:*	bdbf,139x53,0,0,2	off
+window	••• left •••	2	: • twitch 	0	:	ba40,113x53,0,0,3	off
+window	••• left •••	4	:zsh	0	:-	bc81,165x53,0,0,4	:
+window	••• right •••	1	: • irc 	0	:	bd02,143x44,0,0,5	off
+window	••• right •••	2	: • rss 	1	:*	bd03,143x44,0,0,6	off
+window	••• right •••	3	: • music 	0	:	bd04,143x44,0,0,7	off
+window	••• right •••	4	: • mail 	0	:	bd05,143x44,0,0,8	off
+window	••• right •••	7	: • twitter 	0	:	a610,143x44,0,0{71x44,0,0,9,71x44,72,0,10}	off
+window	••• right •••	9	: • rand 	0	:-	5eb0,143x44,0,0,11	off
+state	••• left •••	

@@ -1,0 +1,19 @@
+pane	··· virt ···	1	1	:*	1	:/home/darth	1	zsh	:
+pane	••• left •••	1	1	:*	1	:/home/darth	1	sudo	:sudo btop
+pane	••• left •••	2	0	:-	1	:/home/darth	1	zsh	:mpv https://twitch.tv/aspiringspike --ytdl-format=480p
+pane	••• left •••	3	0	:	1	:/home/darth	1	zsh	:
+pane	••• right •••	1	1	:*	1	:/home/darth	1	weechat	:weechat
+pane	••• right •••	2	0	:-	1	:/home/darth	1	newsboat	:newsboat
+pane	••• right •••	3	0	:	1	:/home/darth	1	ncmpcpp	:ncmpcpp
+pane	••• right •••	4	0	:	1	:/home/darth	1	neomutt	:neomutt
+pane	••• right •••	9	0	:	1	:/home/darth	1	zsh	:
+window	··· virt ···	1	: · Docker · 	1	:*	bd5e,276x53,0,0,1	off
+window	••• left •••	1	: • ~top 	1	:*	bc3f,117x53,0,0,2	off
+window	••• left •••	2	: • stream 	0	:-	bc40,117x53,0,0,3	off
+window	••• left •••	3	: • leftRand 	0	:	bc41,117x53,0,0,4	off
+window	••• right •••	1	: • irc 	1	:*	bc42,117x53,0,0,5	off
+window	••• right •••	2	: • rss 	0	:-	bc43,117x53,0,0,6	off
+window	••• right •••	3	: • music 	0	:	bd64,276x53,0,0,7	off
+window	••• right •••	4	: • mail 	0	:	bd65,276x53,0,0,8	off
+window	••• right •••	9	: • rightRand 	0	:	bd66,276x53,0,0,9	off
+state	••• left •••	••• right •••

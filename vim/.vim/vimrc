@@ -1,0 +1,148 @@
+if empty(glob('~/.vim/autoload/plug.vim'))
+  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
+call plug#begin('~/.vim/bundle')
+Plug 'jiangmiao/auto-pairs'
+Plug 'junegunn/goyo.vim'
+Plug 'ervandew/supertab'
+Plug 'vim-syntastic/syntastic'
+" Plug 'vim-airline/vim-airline'
+" Plug 'vim-airline/vim-airline-themes'
+Plug 'plasticboy/vim-markdown' 
+Plug 'SirVer/ultisnips'
+Plug 'honza/vim-snippets'
+Plug 'arcticicestudio/nord-vim'
+Plug 'lervag/vimtex'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install()  }  }
+Plug 'junegunn/fzf.vim'
+Plug 'itchyny/lightline.vim'
+
+" Vimtext settings
+let g:tex_flavor='latex'
+let g:vimtex_view_method='zathura'
+let g:vimtex_quickfix_mode=0
+set conceallevel=1
+let g:tex_conceal='abdmg'
+
+call plug#end()
+
+let mapleader =" "
+
+syntax on
+filetype plugin indent on
+
+" Enable true color so that color schemes work on tmux 
+if exists('+termguicolors')
+  let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+  let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+  set termguicolors
+endif
+set viminfo+=n~/.vim/.viminfo
+set t_Co=256
+set termguicolors
+set background=dark
+colorscheme nord
+
+" lightline theme settings for status bar
+
+let g:lightline = {
+				\ 'colorscheme': 'nord',
+				\ }
+set laststatus=2
+set noshowmode
+
+" end of lightline settings 
+
+hi Normal guibg=NONE ctermbg=NONE
+
+" Powerline symbols
+
+"let g:airline_powerline_fonts = 1
+
+" UltiSnips Settings
+
+let g:UltiSnipsExpandTrigger = '<tab>'
+let g:UltiSnipsJumpForwardTrigger = '<tab>'
+let g:UltiSnipsJumpBackwardTrigger = '<c-tab>'
+let g:UltiSnipsListSnippets = '<S-tab>'
+
+" Spellcheck
+
+"setlocal spell
+"set spelllang=en_gb " Separate lang with , "
+
+" If you want :UltiSnipsEdit to split your window.
+
+let g:UltiSnipsEditSplit="vertical"
+
+" fzf integration
+
+set rtp+=/usr/local/opt/fzf
+
+" set numbers on the left
+
+set number relativenumber
+
+set tabstop=4
+
+" Enable autocompletion
+
+set wildmode=longest,list,full
+
+" Correct backspace 
+
+set backspace=indent,eol,start
+
+" Disable automatic commenting on newline:
+
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
+" Goyo plugin makes text more readable when writing prose:
+
+map <leader>f :Goyo \| set bg=dark \| set linebreak<CR>
+
+" Spell-check set to <leader>o, 'o' for 'orthography':
+
+map <leader>o :setlocal spell! spelllang=en_us<CR>
+map <leader>V :vsplit<CR>
+map <leader>H :split<CR>
+map <leader>e :Explore<CR>
+map <leader>x :q<CR>
+map <leader>V :vnew<CR>
+map <leader>H :new<CR>
+
+
+" Remap splits navigation to just CTRL + hjkl
+
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
+
+
+" Syntastic recommended settings 
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+" disable annoying folding from mardown plugin
+let g:vim_markdown_folding_disabled = 1
+
+" Airline status bar setting for solrized theme
+"let g:airline_solarized_bg='dark'
+
+" Status line left side.
+set statusline+=\ %F\ %M\ %Y\ %R
+
+" Status line right side.
+set statusline+=\ ascii:\ %b\ hex:\ 0x%B\ row:\ %l\ col:\ %c\ percent:\ %p%%

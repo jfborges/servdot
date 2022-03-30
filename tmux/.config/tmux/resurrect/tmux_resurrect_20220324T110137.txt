@@ -1,0 +1,19 @@
+pane	··· virt ···	1	1	:*	1	:/home/darth	1	zsh	:
+pane	••• left •••	1	0	:-	1	:/home/darth	1	sudo	:sudo btop
+pane	••• left •••	2	0	:	1	:/home/darth	1	zsh	:
+pane	••• left •••	3	1	:*	1	:/home/darth	1	ssh	:ssh olga@192.168.1.69
+pane	••• right •••	1	0	:-	1	:/home/darth	1	weechat	:weechat -d .config/weechat -d .config/weechat
+pane	••• right •••	2	0	:	1	:/home/darth	1	newsboat	:newsboat
+pane	••• right •••	3	0	:	1	:/home/darth	1	ncmpcpp	:ncmpcpp
+pane	••• right •••	4	1	:*	1	:/home/darth	1	neomutt	:neomutt
+pane	••• right •••	9	0	:	1	:/home/darth	1	watch	:watch upower -i /org/freedesktop/UPower/devices/battery_BAT0
+window	··· virt ···	1	: · Docker · 	1	:*	c4fe,124x27,0,0,1	off
+window	••• left •••	1	: • ~top 	0	:-	c73f,157x46,0,0,2	off
+window	••• left •••	2	: • twitch 	0	:	c740,157x46,0,0,3	off
+window	••• left •••	3	:• leftRand 	1	:*	c741,157x46,0,0,4	off
+window	••• right •••	1	: • irc 	0	:-	c742,157x46,0,0,5	off
+window	••• right •••	2	: • rss 	0	:	c503,124x27,0,0,6	off
+window	••• right •••	3	: • music 	0	:	c504,124x27,0,0,7	off
+window	••• right •••	4	: • mail 	1	:*	c745,157x46,0,0,8	off
+window	••• right •••	9	: • rightRand 	0	:	c506,124x27,0,0,9	off
+state	••• right •••	••• left •••

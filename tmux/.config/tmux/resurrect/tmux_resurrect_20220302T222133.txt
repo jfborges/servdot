@@ -1,0 +1,25 @@
+pane	··· virt ···	1	1	:*	1	:/home/darth	1	zsh	:
+pane	••• left •••	1	1	:*	1	:/home/darth	1	sudo	:sudo btop
+pane	••• left •••	2	0	:-	1	:/home/darth	1	zsh	:
+pane	••• left •••	4	0	:	1	:/home/darth	1	zsh	:
+pane	••• right •••	1	0	:	1	:/home/darth	1	weechat	:weechat -d .config/weechat -d .config/weechat -d .config/weechat -d .config/weechat -d .config/weechat -d .config/weechat -d .config/weechat -d .config/weechat
+pane	••• right •••	2	0	:	1	:/home/darth	1	newsboat	:newsboat
+pane	••• right •••	3	0	:	1	:/home/darth	1	ncmpcpp	:ncmpcpp
+pane	••• right •••	4	0	:	1	:/home/darth	1	neomutt	:neomutt
+pane	••• right •••	7	1	:*	1	:/home/darth	0	ruby-2.7	:ruby-2.7 /usr/lib/t-twitter-cli/vendor/bundle/ruby/2.7.0/bin/t stream search sporting porto
+rg --invert-match RT
+pane	••• right •••	7	1	:*	2	:/home/darth	0	sudo	:sudo htop
+pane	••• right •••	7	1	:*	3	:/home/darth	1	ruby-2.7	:ruby-2.7 /usr/lib/t-twitter-cli/vendor/bundle/ruby/2.7.0/bin/t stream list magic-21193
+rg --invert-match RT
+pane	••• right •••	9	0	:-	1	:/home/darth	1	zsh	:
+window	··· virt ···	1	: · Docker · 	1	:*	bcfe,143x44,0,0,1	off
+window	••• left •••	1	: • ~top 	1	:*	bcff,143x44,0,0,2	off
+window	••• left •••	2	: • twitch 	0	:-	ba40,113x53,0,0,3	off
+window	••• left •••	4	:zsh	0	:	ba41,113x53,0,0,4	:
+window	••• right •••	1	: • irc 	0	:	bd02,143x44,0,0,5	off
+window	••• right •••	2	: • rss 	0	:	bd03,143x44,0,0,6	off
+window	••• right •••	3	: • music 	0	:	bd04,143x44,0,0,7	off
+window	••• right •••	4	: • mail 	0	:	bd05,143x44,0,0,8	off
+window	••• right •••	7	: • twitter 	1	:*	edc8,143x44,0,0{71x44,0,0,9,71x44,72,0[71x8,72,0,17,71x35,72,9,10]}	off
+window	••• right •••	9	: • rand 	0	:-	5eb0,143x44,0,0,11	off
+state	••• right •••	••• left •••

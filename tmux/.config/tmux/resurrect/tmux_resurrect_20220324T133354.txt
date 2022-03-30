@@ -1,0 +1,19 @@
+pane	··· virt ···	1	1	:*	1	:/home/darth	1	zsh	:
+pane	••• left •••	1	1	:*	1	:/home/darth	1	sudo	:sudo btop
+pane	••• left •••	2	0	:-	1	:/home/darth	1	zsh	:mpv https://cnn-cnninternational-1-de.samsung.wurl.com/manifest/playlist.m3u8
+pane	••• left •••	3	0	:	1	:/home/darth	1	zsh	:
+pane	••• right •••	1	0	:	1	:/home/darth	1	weechat	:weechat -d .config/weechat -d .config/weechat -d .config/weechat
+pane	••• right •••	2	0	:-	1	:/home/darth	1	newsboat	:newsboat
+pane	••• right •••	3	1	:*	1	:/home/darth	1	ncmpcpp	:ncmpcpp
+pane	••• right •••	4	0	:	1	:/home/darth	1	neomutt	:neomutt
+pane	••• right •••	9	0	:	1	:/home/darth	1	zsh	:
+window	··· virt ···	1	: · Docker · 	1	:*	c71e,281x56,0,0,1	off
+window	••• left •••	1	: • ~top 	1	:*	c6ff,124x56,0,0,2	off
+window	••• left •••	2	: • Stream 	0	:-	c700,124x56,0,0,3	off
+window	••• left •••	3	:• leftRand 	0	:	c721,281x56,0,0,4	off
+window	••• right •••	1	: • irc 	0	:	c722,281x56,0,0,5	off
+window	••• right •••	2	: • rss 	0	:-	c743,157x46,0,0,6	off
+window	••• right •••	3	: • music 	1	:*	c744,157x46,0,0,7	off
+window	••• right •••	4	: • mail 	0	:	c745,157x46,0,0,8	off
+window	••• right •••	9	: • rightRand 	0	:	c726,281x56,0,0,9	off
+state	••• left •••	

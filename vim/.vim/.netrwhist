@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/darth'
+let g:netrw_dirhist_4='/home/darth/Git'
+let g:netrw_dirhist_3='/home/darth'
+let g:netrw_dirhist_2='/home/darth/Desktop'
+let g:netrw_dirhist_1='/home/darth'
+let g:netrw_dirhist_0='/home/darth/Downloads'
+let g:netrw_dirhist_9='/home/darth/.vim'
+let g:netrw_dirhist_8='/home/darth'
+let g:netrw_dirhist_7='/home/darth/.vim'
+let g:netrw_dirhist_6='/home/darth'
