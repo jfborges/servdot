@@ -62,7 +62,7 @@ alias ncdu="ncdu --color off"
 alias gits="git status"
 alias gita="git add"
 alias gitc="git commit -m"
-alias gitp="git push -u origin master"
+alias gitp="git push -u origin main"
 alias gitrm="git rm"
 
 # change keyboard layout
