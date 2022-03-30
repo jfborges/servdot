@@ -10,9 +10,24 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
+:w
+|2,0,1648650164,,"w"
+:PlugUpgrade
+|2,0,1648644577,,"PlugUpgrade"
+:PlugUpdate
+|2,0,1648644557,,"PlugUpdate"
+:PlugInstall
+|2,0,1648644531,,"PlugInstall"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1648644706,,"@$"
+??\a
+|2,1,1648644696,63,"\\a"
 
 # Expression History (newest to oldest):
 
@@ -21,27 +36,310 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
+"0	LINE	0
 	dsjadhskdhksadh
-|3,1,1,1,1,0,1648499718,"dsjadhskdhksadh"
+|3,0,0,1,1,0,1648644706,"dsjadhskdhksadh"
+""1	LINE	0
+	
+|3,1,1,1,1,0,1648650215,""
+"2	LINE	0
+	
+|3,0,2,1,1,0,1648650212,""
+"3	LINE	0
+	
+|3,0,3,1,1,0,1648650212,""
+"4	LINE	0
+	#set -g @plugin 'hoshiya4522/tmux-simple-nord'
+|3,0,4,1,1,0,1648650204,"#set -g @plugin 'hoshiya4522/tmux-simple-nord'"
+"5	LINE	0
+	#set -g @plugin 'tmux-plugins/tmux-prefix-highlight'
+|3,0,5,1,1,0,1648650203,"#set -g @plugin 'tmux-plugins/tmux-prefix-highlight'"
+"6	LINE	0
+	#set -g @plugin "arcticicestudio/nord-tmux"
+|3,0,6,1,1,0,1648650199,"#set -g @plugin \"arcticicestudio/nord-tmux\""
+"7	LINE	0
+	#alias python=/usr/local/bin/python3
+|3,0,7,1,1,0,1648649821,"#alias python=/usr/local/bin/python3"
+"8	LINE	0
+	# make macos use the correct python path (brew)
+|3,0,8,1,1,0,1648649820,"# make macos use the correct python path (brew)"
+"9	LINE	0
+	
+|3,0,9,1,1,0,1648649820,""
 
 # File marks:
-'0  1  0  ~/.config/autostart/mullvad-vpn.desktop
-|4,48,1,0,1648499710,"~/.config/autostart/mullvad-vpn.desktop"
-'1  1  0  ~/.config/autostart/mullvad-vpn.desktop
-|4,49,1,0,1648499704,"~/.config/autostart/mullvad-vpn.desktop"
+'0  1  0  /etc/apt/sources.list
+|4,48,1,0,1648653940,"/etc/apt/sources.list"
+'1  74  5  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,49,74,5,1648652155,"~/servdot/tmux/.config/tmux/tmux.conf"
+'2  100  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,50,100,0,1648651741,"~/servdot/zsh/.config/zsh/.zshrc"
+'3  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,51,1,0,1648650352,"~/servdot/tmux/.config/tmux/tmux.conf"
+'4  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,52,1,0,1648650352,"~/servdot/tmux/.config/tmux/tmux.conf"
+'5  114  67  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,53,114,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
+'6  120  67  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,54,120,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
+'7  114  67  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,55,114,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
+'8  120  67  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,56,120,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
+'9  37  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,57,37,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
 
 # Jumplist (newest first):
--'  1  0  ~/.config/autostart/mullvad-vpn.desktop
-|4,39,1,0,1648499710,"~/.config/autostart/mullvad-vpn.desktop"
--'  1  0  ~/.config/autostart/mullvad-vpn.desktop
-|4,39,1,0,1648499710,"~/.config/autostart/mullvad-vpn.desktop"
--'  1  0  ~/.config/autostart/mullvad-vpn.desktop
-|4,39,1,0,1648499704,"~/.config/autostart/mullvad-vpn.desktop"
--'  1  0  ~/.config/autostart/mullvad-vpn.desktop
-|4,39,1,0,1648499704,"~/.config/autostart/mullvad-vpn.desktop"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  74  5  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,39,74,5,1648652155,"~/servdot/tmux/.config/tmux/tmux.conf"
+-'  74  5  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,39,74,5,1648652155,"~/servdot/tmux/.config/tmux/tmux.conf"
+-'  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,39,1,0,1648652119,"~/servdot/tmux/.config/tmux/tmux.conf"
+-'  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,39,1,0,1648652119,"~/servdot/tmux/.config/tmux/tmux.conf"
+-'  100  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,100,0,1648651741,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  100  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,100,0,1648651741,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  100  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,100,0,1648651741,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  100  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,100,0,1648651741,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648651718,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648651718,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648651718,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648651718,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,39,1,0,1648650352,"~/servdot/tmux/.config/tmux/tmux.conf"
+-'  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,39,1,0,1648650352,"~/servdot/tmux/.config/tmux/tmux.conf"
+-'  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,39,1,0,1648650352,"~/servdot/tmux/.config/tmux/tmux.conf"
+-'  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,39,1,0,1648650352,"~/servdot/tmux/.config/tmux/tmux.conf"
+-'  114  67  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,39,114,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
+-'  120  67  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,39,120,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
+-'  114  67  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,39,114,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
+-'  120  67  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,39,120,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
+-'  114  67  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,39,114,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
+-'  120  67  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,39,120,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
+-'  114  67  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,39,114,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
+-'  120  67  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,39,120,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
+-'  114  67  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,39,114,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
+-'  120  67  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,39,120,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
+-'  114  67  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,39,114,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
+-'  120  67  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,39,120,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
+-'  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,39,1,0,1648650051,"~/servdot/tmux/.config/tmux/tmux.conf"
+-'  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,39,1,0,1648650051,"~/servdot/tmux/.config/tmux/tmux.conf"
+-'  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,39,1,0,1648650051,"~/servdot/tmux/.config/tmux/tmux.conf"
+-'  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
+|4,39,1,0,1648650051,"~/servdot/tmux/.config/tmux/tmux.conf"
+-'  37  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,37,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  37  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,37,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  37  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,37,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  37  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,37,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649837,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649837,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649837,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649837,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649837,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649837,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649837,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649837,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649837,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649837,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649837,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649837,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649837,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649837,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649837,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648649837,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  42  69  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,42,69,1648649530,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  34  69  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,34,69,1648649530,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  36  69  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,36,69,1648649530,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  28  69  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,28,69,1648649530,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  36  69  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,36,69,1648649530,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  28  69  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,28,69,1648649530,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  36  69  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,36,69,1648649530,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  28  69  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,28,69,1648649530,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  36  69  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,36,69,1648649530,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  28  69  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,28,69,1648649530,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  36  69  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,36,69,1648649530,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  28  69  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,28,69,1648649530,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  36  69  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,36,69,1648649530,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  28  69  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,28,69,1648649530,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  36  69  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,36,69,1648649530,"~/servdot/zsh/.config/zsh/.zshrc"
 
 # History of marks within files (newest to oldest):
+
+> /etc/apt/sources.list
+	*	1648653935	0
+	"	1	0
+
+> ~/servdot/tmux/.config/tmux/tmux.conf
+	*	1648652151	0
+	"	74	5
+	^	114	68
+	.	14	0
+	+	103	36
+	+	114	67
+	+	4	0
+	+	10	0
+	+	14	0
+
+> ~/servdot/zsh/.config/zsh/.zshrc
+	*	1648651741	0
+	"	100	0
+	^	14	0
+	.	13	52
+	+	42	76
+	+	47	0
+	+	91	17
+	+	92	17
+	+	42	79
+	+	29	0
+	+	30	23
+	+	40	37
+	+	29	13
+	+	42	0
+	+	43	0
+	+	5	0
+	+	1	0
+	+	3	0
+	+	5	0
+	+	80	0
+	+	36	25
+	+	10	18
+	+	13	52
+
+> ~/servdot/fzf/.fzf.zsh
+	*	1648646129	0
+	"	13	0
+
+> ~/servdot/vim/.vim/vimrc
+	*	1648644848	0
+	"	95	0
 
 > ~/.config/autostart/mullvad-vpn.desktop
 	*	1648499706	0

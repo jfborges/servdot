@@ -1,13 +1,17 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
-# Path to your oh-my-zsh installation.
-export ZSH="$HOME/.config/oh-my-zsh"
+# prompt 
+PROMPT=$'%{\e[1;80m%} \{ %{\e[1;32m%}$ %{\e[1;90m%}\} %{\e[1;37m%}\···•> ' 
+RPROMPT=$'\$vcs_info_msg_0_ %{\e[1;32m%}\U007B%{\e[1;90m%} %~ %{\e[1;32m%}\U007D '
 
 # Default programs:
 export EDITOR="vim"
 export TERMINAL="st"
 export BROWSER="qutebrowser"
+
+# rootless docker 
+
+export PATH=/home/pi/bin:$PATH
+export DOCKER_HOST=unix:///run/user/1000/docker.sock
+
 
 # ~/ Clean-up:
 export XDG_CONFIG_HOME="$HOME/.config"
@@ -22,8 +26,24 @@ export MBSYNCRC="${XDG_CONFIG_HOME:-$HOME/.config}/mbsync/config"
 export ELECTRUMDIR="$XDG_DATA_HOME/electrum"
 export WEECHAT_HOME="${XDG_CONFIG_HOME:-$HOME/.config}/weechat"
 
+# autocomplete
+autoload -Uz promptinit
+promptinit
 autoload -U compinit
-compinit -i
+zstyle ':completion:*' menu select
+zmodload zsh/complist
+compinit
+_comp_options+=(globdots) # Include hidden files.
+
+setopt extendedglob
+#setopt autocd
+cdpath=(/ $HOME/.config $HOME/.local)
+
+autoload -Uz vcs_info
+precmd_vcs_info() { vcs_info  }
+precmd_functions+=( precmd_vcs_info  )
+setopt prompt_subst
+zstyle ':vcs_info:git:*' formats '%B ⥤    %b  ⥢ '
 
 # History in cache directory:
 HISTSIZE=10000000
@@ -57,11 +77,6 @@ alias duck="ddgr"
 alias monitors="xrandr --output DP1 --left-of eDP1 --auto"
 alias monitor="xrandr --auto"
 
-# date alias
-#alias date="date -u +"%Y%m%d%H%M:%Z""
-
-# make macos use the correct python path (brew)
-#alias python=/usr/local/bin/python3
 
 #Alias for NNN File Manager
 alias nnn="nnn -HdeTv"
@@ -73,8 +88,8 @@ BLK="0B" CHR="0B" DIR="04" EXE="06" REG="00" HARDLINK="06" SYMLINK="06" MISSING=
 export NNN_FCOLORS="$BLK$CHR$DIR$EXE$REG$HARDLINK$SYMLINK$MISSING$ORPHAN$FIFO$SOCK$OTHER"
 
 # source zsh plugins 
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # fzf
 source /usr/share/fzf/key-bindings.zsh

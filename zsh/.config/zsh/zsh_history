@@ -1,0 +1,41 @@
+sudo apt update && sudo apt upgrade
+sudo htop
+sudo htop
+sudo htop
+sudo htop
+apt info mullvad
+apt search mullvad
+nmtui
+sudo htop
+sudp apt install stow
+sudo apt install stow
+sudo apt install gh
+sudo apt install github-cli
+git clone git@github.com:jfborges/servdot.git
+git clone https://github.com/jfborges/servdot.git
+nnn
+servdot
+cd servdot
+stow -v *
+sudo apt install fzf
+ls -lah
+h
+..
+ls -lah
+nnn
+pwd
+..
+cd ..
+ls -lah
+source .config/zsh/.zshrc
+exit
+fzf
+nnn
+reboot
+sudo reboot
+tmux
+tmux attach
+kilall tmux
+killall tmux
+exit
+nnn
