@@ -39,3 +39,213 @@ kilall tmux
 killall tmux
 exit
 nnn
+c
+tmux
+c
+tmux
+tmux attach
+c
+vim
+vim
+nnn
+c
+v .config
+v .config/zsh
+v .config/zsh/.zshrc
+source .config/zsh/.zshrc
+c
+vim .vim/vimrc
+c
+source .config/zsh/.zshrc
+sudo nnn
+source .config/zsh/.zshrc
+c
+cd fzf
+c
+nnn
+h
+nnn
+nnn
+nnn
+c
+nnn
+nnn
+nnn
+source .config/zsh/.zshrc
+nnn
+source .config/zsh/.zshrc
+nnn
+source .config/zsh/.zshrc
+c
+ls -lah
+c
+c
+nnn
+c
+nnn
+h
+git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm\
+\
+\
+
+nnn
+nnn
+c
+sudo apt-get install \\
+    ca-certificates \\
+    curl \\
+    gnupg \\
+    lsb-release
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+echo \\
+  "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \\
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt update && sudo apt upgrade
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+git clone https://github.com/docker/docker-install/rootless-install.sh\
+\
+\
+
+git clone https://github.com/docker/docker-install.git\
+\
+\
+
+nnn
+cd docker-install
+ls -lah
+./rootless-install.sh
+sudo apt-get install -y uidmap
+./rootless-install.sh
+nnn
+h
+source .config/zsh/.zshrc
+source .config/zsh/.zshrc
+docker run it ubuntu/latest
+docker run -it ubuntu/latest
+docker run -it ubuntu/
+docker run -it ubuntu /bin/bash
+docker ps -a
+c
+nnn
+c
+c
+sudo systemctl disable --now docker.service docker.socket
+systemctl --user start docker
+systemctl --user enable docker
+sudo loginctl enable-linger $(whoami)
+docker run -it ubuntu /bin/bash
+docker run -it archlinux /bin/bash
+docker run -it archlinux:arm /bin/bash
+docker run -it fedora /bin/bash
+docker pull kalilinux/kali-rolling
+nnn
+c
+sudo apt install lazygit
+sudo add-apt-repository ppa:lazygit-team/release
+sudo apt update
+sudo apt install lazygit
+apt -h
+apt-repository 
+nnn
+sudo add-apt-repository --remove ppa:lazygit-team/release
+curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg\
+
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null\
+
+sudo apt update\
+
+sudo apt install gh
+gh -h
+gh auth
+gh setup-git
+gh setup-git auth
+gh -h
+gh auth
+gh auth setup-git
+gh auth login
+gh auth setup-git
+servdot
+cd servdot
+h
+sudo apt install go
+MY_FLAVOR=Linux_x86_64; curl -s -L $(curl -s https://api.github.com/repos/jesseduffield/lazygit/releases/latest | grep browser_download_url | cut -d '"' -f 4 | grep -i "$MY_FLAVOR") | sudo tar xzf - -C /usr/local/bin lazygit
+lazygit
+source .config/zsh/.zshrc
+lazygit
+/usr/local/bin/lazygit
+sudo nnn
+lazygit
+which lazygit
+sudo nnn
+cd servdot
+git status
+git add *
+git status
+git commit -m "updates from server"
+git config --global user.email "borges.jfc@gmail.com"
+git config --global user.name "jfborges"
+git commit -m "updates from server"
+gitp
+git status
+git push 
+nnn
+ls -lah
+git status
+git add *
+git commit -m "updates from server"
+gitp
+source .config/zsh/.zshrc
+h
+source .config/zsh/.zshrc
+cd servdot
+gitp
+git status
+git status
+nnnc
+c
+sudo 
+c
+sudo reboot
+nnn
+source .config/zsh/.zshrc
+nnn
+nnn
+ls -lah
+udp apt update
+clear
+sudo apt update
+sudo apt list --upgradable
+c
+tmux attach
+sudo apt install zsh-syntax-highlighting zsh-autosuggestions
+source .config/zsh/.zshrc
+nnn
+nnn
+source .config/zsh/.zshrc
+apt get update
+sudo apt update
+sudo apt upgrade
+git clone https://github.com/junegunn/fzf.git
+source .config/zsh/.zshrc
+c
+nnn
+apt search zsh
+c
+cd .config
+sudo su
+c
+sudo htop
+source .config/zsh/.zshrc
+h
+source .config/zsh/.zshrc
+sudo htop
+c
+sudo htop
+sudo htop
+tmux attach
+tmux
+sudo htop
+exit
+nnn
+exit
+exit

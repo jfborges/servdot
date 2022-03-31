@@ -15,7 +15,7 @@ $
 
 # Command Line History (newest to oldest):
 :w
-|2,0,1648650164,,"w"
+|2,0,1648764344,,"w"
 :PlugUpgrade
 |2,0,1648644577,,"PlugUpgrade"
 :PlugUpdate
@@ -39,285 +39,305 @@ $
 "0	LINE	0
 	dsjadhskdhksadh
 |3,0,0,1,1,0,1648644706,"dsjadhskdhksadh"
-""1	LINE	0
+""1	CHAR	0
+	MPT="%(?:%{$fg_bold[blue]%} ····• :%{$fg_bold[red]%} ·• )%{$reset_color%}"
+	RPROMPT="%b%{$fg[blue]%}[%{$fg[white]%}%B %~ %b%{$fg[blue]%}]%b%{$reset_color%}"
 	
-|3,1,1,1,1,0,1648650215,""
+	# Default programs:
+	export EDITOR="vim"
+|3,1,1,0,5,0,1648764181,"MPT=\"%(?:%{$fg_bold[blue]%} ····• :%{$fg_bold[red]%} ·• )%{$reset_color%}\"","RPROMPT=\"%b%{$fg[blue]%}[%{$fg[white]%}%B %~ %b%{$fg[blue]%}]%b%{$reset_color%}\"","","# Default programs:","export EDITOR=\"vim\""
 "2	LINE	0
 	
-|3,0,2,1,1,0,1648650212,""
+|3,0,2,1,1,0,1648764125,""
 "3	LINE	0
-	
-|3,0,3,1,1,0,1648650212,""
+	zstyle ':vcs_info:git:*' formats '%B ⥤    %b  ⥢ '
+|3,0,3,1,1,0,1648764124,"zstyle ':vcs_info:git:*' formats '%B ⥤    %b  ⥢ '"
 "4	LINE	0
-	#set -g @plugin 'hoshiya4522/tmux-simple-nord'
-|3,0,4,1,1,0,1648650204,"#set -g @plugin 'hoshiya4522/tmux-simple-nord'"
+	setopt prompt_subst
+|3,0,4,1,1,0,1648764124,"setopt prompt_subst"
 "5	LINE	0
-	#set -g @plugin 'tmux-plugins/tmux-prefix-highlight'
-|3,0,5,1,1,0,1648650203,"#set -g @plugin 'tmux-plugins/tmux-prefix-highlight'"
+	precmd_functions+=( precmd_vcs_info  )
+|3,0,5,1,1,0,1648764123,"precmd_functions+=( precmd_vcs_info  )"
 "6	LINE	0
-	#set -g @plugin "arcticicestudio/nord-tmux"
-|3,0,6,1,1,0,1648650199,"#set -g @plugin \"arcticicestudio/nord-tmux\""
+	precmd_vcs_info() { vcs_info  }
+|3,0,6,1,1,0,1648764123,"precmd_vcs_info() { vcs_info  }"
 "7	LINE	0
-	#alias python=/usr/local/bin/python3
-|3,0,7,1,1,0,1648649821,"#alias python=/usr/local/bin/python3"
+	autoload -Uz vcs_info
+|3,0,7,1,1,0,1648764122,"autoload -Uz vcs_info"
 "8	LINE	0
-	# make macos use the correct python path (brew)
-|3,0,8,1,1,0,1648649820,"# make macos use the correct python path (brew)"
+	export ELECTRUMDIR="$XDG_DATA_HOME/electrum"
+|3,0,8,1,1,0,1648764101,"export ELECTRUMDIR=\"$XDG_DATA_HOME/electrum\""
 "9	LINE	0
 	
-|3,0,9,1,1,0,1648649820,""
+|3,0,9,1,1,0,1648764092,""
 
 # File marks:
-'0  65  32  ~/servdot/zsh/.config/zsh/.zshrc
-|4,48,65,32,1648655439,"~/servdot/zsh/.config/zsh/.zshrc"
-'1  1  0  /etc/apt/sources.list
-|4,49,1,0,1648653940,"/etc/apt/sources.list"
-'2  74  5  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,50,74,5,1648652155,"~/servdot/tmux/.config/tmux/tmux.conf"
-'3  100  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,51,100,0,1648651741,"~/servdot/zsh/.config/zsh/.zshrc"
-'4  100  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,52,100,0,1648651741,"~/servdot/zsh/.config/zsh/.zshrc"
-'5  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,53,1,0,1648650352,"~/servdot/tmux/.config/tmux/tmux.conf"
-'6  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,54,1,0,1648650352,"~/servdot/tmux/.config/tmux/tmux.conf"
-'7  114  67  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,55,114,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
-'8  120  67  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,56,120,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
-'9  114  67  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,57,114,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
+'0  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,48,1,0,1648764379,"~/servdot/zsh/.config/zsh/.zshrc"
+'1  4  34  ~/servdot/zsh/.config/zsh/.zshrc
+|4,49,4,34,1648764346,"~/servdot/zsh/.config/zsh/.zshrc"
+'2  4  34  ~/servdot/zsh/.config/zsh/.zshrc
+|4,50,4,34,1648764346,"~/servdot/zsh/.config/zsh/.zshrc"
+'3  4  36  ~/servdot/zsh/.config/zsh/.zshrc
+|4,51,4,36,1648764290,"~/servdot/zsh/.config/zsh/.zshrc"
+'4  4  36  ~/servdot/zsh/.config/zsh/.zshrc
+|4,52,4,36,1648764290,"~/servdot/zsh/.config/zsh/.zshrc"
+'5  4  75  ~/servdot/zsh/.config/zsh/.zshrc
+|4,53,4,75,1648764229,"~/servdot/zsh/.config/zsh/.zshrc"
+'6  4  75  ~/servdot/zsh/.config/zsh/.zshrc
+|4,54,4,75,1648764229,"~/servdot/zsh/.config/zsh/.zshrc"
+'7  4  75  ~/servdot/zsh/.config/zsh/.zshrc
+|4,55,4,75,1648764229,"~/servdot/zsh/.config/zsh/.zshrc"
+'8  4  75  ~/servdot/zsh/.config/zsh/.zshrc
+|4,56,4,75,1648764229,"~/servdot/zsh/.config/zsh/.zshrc"
+'9  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,57,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
 
 # Jumplist (newest first):
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648764379,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  4  34  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,4,34,1648764346,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  4  34  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,4,34,1648764346,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648764308,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  4  36  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,4,36,1648764290,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648764251,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  4  75  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,4,75,1648764229,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  3  2  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,3,2,1648764188,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  3  2  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,3,2,1648764188,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  3  2  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,3,2,1648764188,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  3  2  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,3,2,1648764188,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648763944,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  33  10  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,33,10,1648661827,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  35  10  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,35,10,1648661827,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  33  10  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,33,10,1648661827,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  35  10  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,35,10,1648661827,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  33  10  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,33,10,1648661827,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  35  10  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,35,10,1648661827,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  33  10  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,33,10,1648661827,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  35  10  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,35,10,1648661827,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  35  10  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,35,10,1648661827,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648661796,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648661796,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  57  32  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,57,32,1648655439,"~/servdot/zsh/.config/zsh/.zshrc"
 -'  65  32  ~/servdot/zsh/.config/zsh/.zshrc
 |4,39,65,32,1648655439,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  57  32  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,57,32,1648655439,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  65  32  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,65,32,1648655439,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  57  32  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,57,32,1648655439,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  65  32  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,65,32,1648655439,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  57  32  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,57,32,1648655439,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  65  32  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,65,32,1648655439,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  65  32  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,65,32,1648655439,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  65  32  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,65,32,1648655439,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  65  32  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,65,32,1648655439,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648655421,"~/servdot/zsh/.config/zsh/.zshrc"
 -'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
 |4,39,1,0,1648655421,"~/servdot/zsh/.config/zsh/.zshrc"
 -'  1  0  /etc/apt/sources.list
 |4,39,1,0,1648653940,"/etc/apt/sources.list"
 -'  1  0  /etc/apt/sources.list
 |4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  74  5  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,74,5,1648652155,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  74  5  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,74,5,1648652155,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  74  5  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,74,5,1648652155,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  74  5  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,74,5,1648652155,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,1,0,1648652119,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,1,0,1648652119,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,1,0,1648652119,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,1,0,1648652119,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  100  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,100,0,1648651741,"~/servdot/zsh/.config/zsh/.zshrc"
--'  100  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,100,0,1648651741,"~/servdot/zsh/.config/zsh/.zshrc"
--'  100  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,100,0,1648651741,"~/servdot/zsh/.config/zsh/.zshrc"
--'  100  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,100,0,1648651741,"~/servdot/zsh/.config/zsh/.zshrc"
--'  100  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,100,0,1648651741,"~/servdot/zsh/.config/zsh/.zshrc"
--'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,1,0,1648651718,"~/servdot/zsh/.config/zsh/.zshrc"
--'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,1,0,1648651718,"~/servdot/zsh/.config/zsh/.zshrc"
--'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,1,0,1648651718,"~/servdot/zsh/.config/zsh/.zshrc"
--'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,1,0,1648651718,"~/servdot/zsh/.config/zsh/.zshrc"
--'  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,1,0,1648650352,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,1,0,1648650352,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,1,0,1648650352,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,1,0,1648650352,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,1,0,1648650352,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,1,0,1648650352,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,1,0,1648650352,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,1,0,1648650352,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  114  67  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,114,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  120  67  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,120,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  114  67  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,114,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  120  67  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,120,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  114  67  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,114,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  120  67  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,120,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  114  67  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,114,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  120  67  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,120,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  114  67  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,114,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  120  67  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,120,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  114  67  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,114,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  120  67  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,120,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  114  67  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,114,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  120  67  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,120,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  114  67  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,114,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  120  67  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,120,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  114  67  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,114,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  120  67  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,120,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  114  67  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,114,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  120  67  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,120,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  114  67  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,114,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  120  67  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,120,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  114  67  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,114,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  120  67  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,120,67,1648650171,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,1,0,1648650051,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,1,0,1648650051,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,1,0,1648650051,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,1,0,1648650051,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,1,0,1648650051,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,1,0,1648650051,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,1,0,1648650051,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  1  0  ~/servdot/tmux/.config/tmux/tmux.conf
-|4,39,1,0,1648650051,"~/servdot/tmux/.config/tmux/tmux.conf"
--'  37  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,37,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
--'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
--'  37  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,37,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
--'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
--'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
--'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
--'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
--'  37  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,37,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
--'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
--'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
--'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
--'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
--'  37  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,37,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
--'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
--'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
--'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
--'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
--'  37  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,37,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
--'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
--'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
--'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
--'  31  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,31,0,1648649947,"~/servdot/zsh/.config/zsh/.zshrc"
--'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
--'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
--'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
--'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
--'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
--'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
--'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
--'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
--'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
--'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
--'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
--'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
--'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
--'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
--'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
--'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,1,0,1648649857,"~/servdot/zsh/.config/zsh/.zshrc"
--'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,1,0,1648649837,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  1  0  /etc/apt/sources.list
+|4,39,1,0,1648653940,"/etc/apt/sources.list"
 
 # History of marks within files (newest to oldest):
 
 > ~/servdot/zsh/.config/zsh/.zshrc
-	*	1648655439	0
-	"	65	32
-	^	65	33
-	.	65	33
-	+	42	76
-	+	47	0
-	+	91	17
-	+	92	17
-	+	42	79
-	+	29	0
-	+	30	23
-	+	40	37
-	+	29	13
-	+	42	0
-	+	43	0
-	+	5	0
+	*	1648764374	0
+	"	1	0
+	^	4	36
+	.	4	34
+	+	40	76
+	+	40	0
+	+	83	17
+	+	84	17
+	+	40	79
+	+	27	0
+	+	28	23
+	+	38	37
+	+	27	13
+	+	40	0
+	+	4	3
 	+	1	0
-	+	3	0
-	+	5	0
-	+	80	0
-	+	36	25
+	+	2	0
+	+	4	3
+	+	72	0
+	+	34	25
 	+	10	18
 	+	13	52
-	+	65	33
+	+	57	33
+	+	33	10
+	+	2	0
+	+	4	3
+	+	4	83
+	+	4	3
+	+	9	0
+	+	15	0
+	+	25	0
+	+	40	0
+	+	4	3
+	+	4	27
+	+	5	56
+	+	4	34
+
+> /run/NetworkManager/conf.d/netplan.conf
+	*	1648743834	0
+	"	1	0
 
 > /etc/apt/sources.list
 	*	1648653935	0

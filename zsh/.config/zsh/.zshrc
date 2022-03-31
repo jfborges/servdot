@@ -1,17 +1,16 @@
 # prompt 
-PROMPT=$'%{\e[1;80m%} \{ %{\e[1;32m%}$ %{\e[1;90m%}\} %{\e[1;37m%}\···•> ' 
-RPROMPT=$'\$vcs_info_msg_0_ %{\e[1;32m%}\U007B%{\e[1;90m%} %~ %{\e[1;32m%}\U007D '
+
+autoload -U colors && colors    # Load colors
+PROMPT="%(?:%{$fg_bold[white]%} ··• :%{$fg_bold[red]%}··• )%{$reset_color%}"
+RPROMPT="%b%{$fg[white]%}[%{$fg[red]%}%B %~ %b%{$fg[white]%}]%b%{$reset_color%}"
 
 # Default programs:
 export EDITOR="vim"
-export TERMINAL="st"
-export BROWSER="qutebrowser"
 
 # rootless docker 
 
 export PATH=/home/pi/bin:$PATH
 export DOCKER_HOST=unix:///run/user/1000/docker.sock
-
 
 # ~/ Clean-up:
 export XDG_CONFIG_HOME="$HOME/.config"
@@ -23,7 +22,6 @@ export PASSWORD_STORE_DIR="${XDG_DATA_HOME:-$HOME/.local/share}/password-store"
 export CARGO_HOME="${XDG_DATA_HOME:-$HOME/.local/share}/cargo"
 export HISTFILE="${XDG_CONFIG_HOME:-$HOME/.config}/zsh/zsh_history"
 export MBSYNCRC="${XDG_CONFIG_HOME:-$HOME/.config}/mbsync/config"
-export ELECTRUMDIR="$XDG_DATA_HOME/electrum"
 export WEECHAT_HOME="${XDG_CONFIG_HOME:-$HOME/.config}/weechat"
 
 # autocomplete
@@ -32,18 +30,12 @@ promptinit
 autoload -U compinit
 zstyle ':completion:*' menu select
 zmodload zsh/complist
-compinit
+compinit -i
 _comp_options+=(globdots) # Include hidden files.
 
 setopt extendedglob
 #setopt autocd
 cdpath=(/ $HOME/.config $HOME/.local)
-
-autoload -Uz vcs_info
-precmd_vcs_info() { vcs_info  }
-precmd_functions+=( precmd_vcs_info  )
-setopt prompt_subst
-zstyle ':vcs_info:git:*' formats '%B ⥤    %b  ⥢ '
 
 # History in cache directory:
 HISTSIZE=10000000
