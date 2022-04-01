@@ -249,3 +249,31 @@ exit
 nnn
 exit
 exit
+tmux attach
+c
+nnn
+c
+cd servdot
+nnn
+source .config/zsh/.zshrc
+h
+source .config/zsh/.zshrc
+c
+nnn
+source .config/zsh/.zshrc
+c
+nnn
+nnn
+source .config/zsh/.zshrc
+c
+nnn
+nnn
+c
+sudo apt update && sudo apt upgrade
+c
+cd servdot
+gits
+gita *
+git commit -m "updates from server"
+gitp
+tmux

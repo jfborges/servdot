@@ -72,40 +72,58 @@ $
 |3,0,9,1,1,0,1648764092,""
 
 # File marks:
-'0  1  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,48,1,0,1648764379,"~/servdot/zsh/.config/zsh/.zshrc"
-'1  4  34  ~/servdot/zsh/.config/zsh/.zshrc
-|4,49,4,34,1648764346,"~/servdot/zsh/.config/zsh/.zshrc"
+'0  13  0  ~/servdot/README.md
+|4,48,13,0,1648819574,"~/servdot/README.md"
+'1  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,49,1,0,1648764379,"~/servdot/zsh/.config/zsh/.zshrc"
 '2  4  34  ~/servdot/zsh/.config/zsh/.zshrc
 |4,50,4,34,1648764346,"~/servdot/zsh/.config/zsh/.zshrc"
-'3  4  36  ~/servdot/zsh/.config/zsh/.zshrc
-|4,51,4,36,1648764290,"~/servdot/zsh/.config/zsh/.zshrc"
+'3  4  34  ~/servdot/zsh/.config/zsh/.zshrc
+|4,51,4,34,1648764346,"~/servdot/zsh/.config/zsh/.zshrc"
 '4  4  36  ~/servdot/zsh/.config/zsh/.zshrc
 |4,52,4,36,1648764290,"~/servdot/zsh/.config/zsh/.zshrc"
-'5  4  75  ~/servdot/zsh/.config/zsh/.zshrc
-|4,53,4,75,1648764229,"~/servdot/zsh/.config/zsh/.zshrc"
+'5  4  36  ~/servdot/zsh/.config/zsh/.zshrc
+|4,53,4,36,1648764290,"~/servdot/zsh/.config/zsh/.zshrc"
 '6  4  75  ~/servdot/zsh/.config/zsh/.zshrc
 |4,54,4,75,1648764229,"~/servdot/zsh/.config/zsh/.zshrc"
 '7  4  75  ~/servdot/zsh/.config/zsh/.zshrc
 |4,55,4,75,1648764229,"~/servdot/zsh/.config/zsh/.zshrc"
 '8  4  75  ~/servdot/zsh/.config/zsh/.zshrc
 |4,56,4,75,1648764229,"~/servdot/zsh/.config/zsh/.zshrc"
-'9  1  0  /run/NetworkManager/conf.d/netplan.conf
-|4,57,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+'9  4  75  ~/servdot/zsh/.config/zsh/.zshrc
+|4,57,4,75,1648764229,"~/servdot/zsh/.config/zsh/.zshrc"
 
 # Jumplist (newest first):
+-'  13  0  ~/servdot/README.md
+|4,39,13,0,1648819574,"~/servdot/README.md"
+-'  1  0  ~/servdot/README.md
+|4,39,1,0,1648819309,"~/servdot/README.md"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648764379,"~/servdot/zsh/.config/zsh/.zshrc"
 -'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
 |4,39,1,0,1648764379,"~/servdot/zsh/.config/zsh/.zshrc"
 -'  4  34  ~/servdot/zsh/.config/zsh/.zshrc
 |4,39,4,34,1648764346,"~/servdot/zsh/.config/zsh/.zshrc"
 -'  4  34  ~/servdot/zsh/.config/zsh/.zshrc
 |4,39,4,34,1648764346,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  4  34  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,4,34,1648764346,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  4  34  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,4,34,1648764346,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648764308,"~/servdot/zsh/.config/zsh/.zshrc"
 -'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
 |4,39,1,0,1648764308,"~/servdot/zsh/.config/zsh/.zshrc"
 -'  4  36  ~/servdot/zsh/.config/zsh/.zshrc
 |4,39,4,36,1648764290,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  4  36  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,4,36,1648764290,"~/servdot/zsh/.config/zsh/.zshrc"
 -'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
 |4,39,1,0,1648764251,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648764251,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  4  75  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,4,75,1648764229,"~/servdot/zsh/.config/zsh/.zshrc"
 -'  4  75  ~/servdot/zsh/.config/zsh/.zshrc
 |4,39,4,75,1648764229,"~/servdot/zsh/.config/zsh/.zshrc"
 -'  3  2  ~/servdot/zsh/.config/zsh/.zshrc
@@ -116,6 +134,16 @@ $
 |4,39,3,2,1648764188,"~/servdot/zsh/.config/zsh/.zshrc"
 -'  3  2  ~/servdot/zsh/.config/zsh/.zshrc
 |4,39,3,2,1648764188,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  3  2  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,3,2,1648764188,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  3  2  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,3,2,1648764188,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  3  2  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,3,2,1648764188,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  3  2  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,3,2,1648764188,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648763944,"~/servdot/zsh/.config/zsh/.zshrc"
 -'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
 |4,39,1,0,1648763944,"~/servdot/zsh/.config/zsh/.zshrc"
 -'  1  0  /run/NetworkManager/conf.d/netplan.conf
@@ -150,6 +178,38 @@ $
 |4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
 -'  1  0  /run/NetworkManager/conf.d/netplan.conf
 |4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
+-'  1  0  /run/NetworkManager/conf.d/netplan.conf
+|4,39,1,0,1648743840,"/run/NetworkManager/conf.d/netplan.conf"
 -'  33  10  ~/servdot/zsh/.config/zsh/.zshrc
 |4,39,33,10,1648661827,"~/servdot/zsh/.config/zsh/.zshrc"
 -'  35  10  ~/servdot/zsh/.config/zsh/.zshrc
@@ -168,6 +228,28 @@ $
 |4,39,35,10,1648661827,"~/servdot/zsh/.config/zsh/.zshrc"
 -'  35  10  ~/servdot/zsh/.config/zsh/.zshrc
 |4,39,35,10,1648661827,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  33  10  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,33,10,1648661827,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  35  10  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,35,10,1648661827,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  33  10  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,33,10,1648661827,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  35  10  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,35,10,1648661827,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  33  10  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,33,10,1648661827,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  35  10  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,35,10,1648661827,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  33  10  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,33,10,1648661827,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  35  10  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,35,10,1648661827,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  35  10  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,35,10,1648661827,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648661796,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,1,0,1648661796,"~/servdot/zsh/.config/zsh/.zshrc"
 -'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
 |4,39,1,0,1648661796,"~/servdot/zsh/.config/zsh/.zshrc"
 -'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
@@ -194,108 +276,46 @@ $
 |4,39,65,32,1648655439,"~/servdot/zsh/.config/zsh/.zshrc"
 -'  65  32  ~/servdot/zsh/.config/zsh/.zshrc
 |4,39,65,32,1648655439,"~/servdot/zsh/.config/zsh/.zshrc"
--'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,1,0,1648655421,"~/servdot/zsh/.config/zsh/.zshrc"
--'  1  0  ~/servdot/zsh/.config/zsh/.zshrc
-|4,39,1,0,1648655421,"~/servdot/zsh/.config/zsh/.zshrc"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
--'  1  0  /etc/apt/sources.list
-|4,39,1,0,1648653940,"/etc/apt/sources.list"
+-'  57  32  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,57,32,1648655439,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  65  32  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,65,32,1648655439,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  57  32  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,57,32,1648655439,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  65  32  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,65,32,1648655439,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  57  32  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,57,32,1648655439,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  65  32  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,65,32,1648655439,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  57  32  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,57,32,1648655439,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  65  32  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,65,32,1648655439,"~/servdot/zsh/.config/zsh/.zshrc"
+-'  65  32  ~/servdot/zsh/.config/zsh/.zshrc
+|4,39,65,32,1648655439,"~/servdot/zsh/.config/zsh/.zshrc"
 
 # History of marks within files (newest to oldest):
+
+> ~/servdot/README.md
+	*	1648819572	0
+	"	13	0
+	^	13	0
+	.	12	14
+	+	1	85
+	+	1	99
+	+	2	3
+	+	2	6
+	+	4	24
+	+	6	8
+	+	5	31
+	+	8	8
+	+	9	3
+	+	10	0
+	+	1	85
+	+	2	0
+	+	10	0
+	+	12	14
 
 > ~/servdot/zsh/.config/zsh/.zshrc
 	*	1648764374	0
