@@ -1,5 +1,4 @@
-# Dotfiles for easy config files deployment onto a server or a container (ie Docker).
-
+# Dotfiles to quickly deploy configuration files to a server or container (ie Docker).
 ```
 apt update && apt upgrade
 apt install stow zsh fzf vim git tmux
