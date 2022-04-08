@@ -9,6 +9,9 @@ apt install stow zsh fzf vim git tmux
 pacman -Syu
 pacman -Sy stow zsh fzf vim git tmux
 
+# set zsh as default shell
+chsh -s $(which zsh)
+
 git clone https://github.com/jfborges/servdot.git
 cd servdot
 stow -v *
