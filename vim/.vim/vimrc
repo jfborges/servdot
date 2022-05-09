@@ -9,8 +9,6 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/goyo.vim'
 Plug 'ervandew/supertab'
 Plug 'vim-syntastic/syntastic'
-" Plug 'vim-airline/vim-airline'
-" Plug 'vim-airline/vim-airline-themes'
 Plug 'plasticboy/vim-markdown' 
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
@@ -19,6 +17,7 @@ Plug 'lervag/vimtex'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install()  }  }
 Plug 'junegunn/fzf.vim'
 Plug 'itchyny/lightline.vim'
+Plug 'Yggdroot/indentLine'
 
 " Vimtext settings
 let g:tex_flavor='latex'
@@ -99,7 +98,7 @@ set backspace=indent,eol,start
 " Disable automatic commenting on newline:
 
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
-
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 " Goyo plugin makes text more readable when writing prose:
 
 map <leader>f :Goyo \| set bg=dark \| set linebreak<CR>
