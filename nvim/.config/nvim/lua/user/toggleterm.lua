@@ -4,20 +4,25 @@ if not status_ok then
 end
 
 toggleterm.setup({
-	size = 20,
-	open_mapping = [[<c-\>]],
+	size = 50,
+	open_mapping = [[<leader>\]],
 	hide_numbers = true,
 	shade_terminals = true,
 	shading_factor = 2,
 	start_in_insert = true,
-	insert_mappings = true,
+	insert_mappings = false,  -- Default is true, causes lag when insert mode
 	persist_size = true,
 	direction = "float",
 	close_on_exit = true,
 	shell = vim.o.shell,
-	float_opts = {
-		border = "curved",
-	},
+  float_opts = {
+		winblend = 0,
+    border = "solid",
+	  highlights = {
+      border = "Normal",
+      background = "Normal", -- if not try setting this to Pmenu or String and see what happens
+    },
+  },
 })
 
 function _G.set_terminal_keymaps()
